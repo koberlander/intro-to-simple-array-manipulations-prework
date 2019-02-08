@@ -50,8 +50,6 @@ def using_delete_at(array, integer)
   index = 0
   while index == integer 
     array.delete_at(index)
-    index+= index
-    end
 end
 
 sentence1 = "Hi, Kristin. How are you?"
