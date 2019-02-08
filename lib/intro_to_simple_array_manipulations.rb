@@ -47,10 +47,5 @@ def using_delete(array, string)
 end
 
 def using_delete_at(array, integer)
-  index = 0
-  while index == integer 
     array.delete_at(index)
 end
-
-sentence1 = "Hi, Kristin. How are you?"
-using_delete_at(sentence1, 4)
